@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "nonamerpg:antimo_ore"
+  },
+  "result": "nonamerpg:antimo_ingot",
+  "experience": 0.7,
+  "cookingtime": 800
+}

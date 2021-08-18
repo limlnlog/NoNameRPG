@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "nonamerpg:sentiment"
+    },
+    "title": "Sentiment",
+    "description": "Get a sentiment",
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sentiment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "nonamerpg:sentiment",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sentiment"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}
