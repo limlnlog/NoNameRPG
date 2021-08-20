@@ -22,6 +22,13 @@ public class ItemRegistry
 	public static final RegistryObject<Item> POISON_IVY = ITEMS.register("poison_ivy", () -> new Weapons.PoisonIvy(AntimoItemTier.ClassS, 35, -2.4f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.RARE)));
 	public static final RegistryObject<Item> BLOODROAR = ITEMS.register("bloodroar", () -> new Weapons.Bloodroar(AntimoItemTier.ClassS, 15, -0.5f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.RARE)));
 	public static final RegistryObject<Item> BESTFRIEND = ITEMS.register("bestfriend", () -> new Weapons.BestFriend(AntimoItemTier.ClassS, 75, -3.1f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.RARE)));
+	// C Class
+	public static final RegistryObject<Item> HANDAXE = ITEMS.register("handaxe", () -> new SwordItem(AntimoItemTier.ClassC, 2, -1.2f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
+	public static final RegistryObject<Item> BONECLARE = ITEMS.register("boneclare", () -> new SwordItem(AntimoItemTier.ClassC, 1, -0.9f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
+	public static final RegistryObject<Item> GREATBLOW = ITEMS.register("greatblow", () -> new SwordItem(AntimoItemTier.ClassC, 9, -2.5f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
+	public static final RegistryObject<Item> DAMASCUS = ITEMS.register("damascus", () -> new SwordItem(AntimoItemTier.ClassC, 11, -2.7f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
+	public static final RegistryObject<Item> INITIALLOYSWORD = ITEMS.register("initialloysword", () -> new SwordItem(AntimoItemTier.ClassC, 23, -3.3f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
+	public static final RegistryObject<Item> QUAD = ITEMS.register("quad", () -> new SwordItem(AntimoItemTier.ClassC, 27, -3.5f, new Item.Properties().tab(NoNameRPG.GROUP).stacksTo(1).setNoRepair().rarity(Rarity.COMMON)));
 	// Armors
 	public static final RegistryObject<Item> VALDOR_SHINE = ITEMS.register("valdor_shine", () -> new ArmorItem(ArmorMaterial.NETHERITE, EquipmentSlotType.CHEST, new Item.Properties().tab(NoNameRPG.GROUP)));
 }

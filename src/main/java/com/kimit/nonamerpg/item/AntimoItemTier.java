@@ -25,7 +25,7 @@ public enum AntimoItemTier implements IItemTier
 	{
 		return Ingredient.of(ItemRegistry.ANTIMO_INGOT.get());
 	}),
-	ClassC(3000, 1.0F, 9.0F, 4, 15, () ->
+	ClassC(600, 1.0F, 4.0F, 4, 15, () ->
 	{
 		return Ingredient.of(ItemRegistry.ANTIMO_INGOT.get());
 	});

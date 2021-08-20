@@ -18,7 +18,9 @@ public class TooltipEvent
 		ItemStack stack = event.getItemStack();
 		if (stack.getItem() == ItemRegistry.SENTIMENT.get())
 			event.getToolTip().add(new TranslationTextComponent("L Class").withStyle(TextFormatting.LIGHT_PURPLE));
-		else if (stack.getItem() == ItemRegistry.POISON_IVY.get()) // Add other S Class weapons
+		else if (stack.getItem() == ItemRegistry.POISON_IVY.get() || stack.getItem() == ItemRegistry.BLOODROAR.get() || stack.getItem() == ItemRegistry.BESTFRIEND.get())
 			event.getToolTip().add(new TranslationTextComponent("S Class").withStyle(TextFormatting.LIGHT_PURPLE));
+		else if (stack.getItem() == ItemRegistry.HANDAXE.get() || stack.getItem() == ItemRegistry.BONECLARE.get())
+			event.getToolTip().add(new TranslationTextComponent("C Class").withStyle(TextFormatting.LIGHT_PURPLE));
 	}
 }
